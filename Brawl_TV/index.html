@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl TV</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/carossel.css">
+    <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+</head>
+<body>
+    <header class="header">
+            <input type="checkbox" id="search__toggle" hidden>
+            <div class="container">
+                    <img src="assets/banner_trophy_trophy_escape.png" 
+                        width=74 height=96 class="container__image">
+                    <h1 class="container__title"><b class="container__title__bold">Brawl</b>TV</h1>
+            </div>
+
+            <div class="search__wrapper">
+            <label for="search__toggle" class="hamburger__btn" aria-label="Open Search">
+            </label>
+                <div class="search__box">
+                    <input type="text"
+                    class="container__search"
+                    placeholder="Search...">
+                </div>
+            </div>
+
+            <div class="container__login">
+            <a href="#" class="container__link">
+                <img src="assets/icon_skin_category_royals.png" alt="User" class="container__image__user container__image--transparent">
+                <p class="container__text">My Profile</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="assets/icon_inbox.png" alt="Notifications" class="container__image__user container__image--transparent">
+                <p class="container__text">Notifications</p>
+            </a>
+        </div>
+    </header>
+    <section class="carrossel">
+                    <h2 class ="carrossel__title">Discover</h2>
+                    <!-- Slider main container -->
+                <div class ="carrossel__container">
+
+                <div class="swiper">
+        <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+        <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/loading_2020_psg.png" alt="Brawl Stars loading 2020 PSG"></div>
+                <div class="swiper-slide"><img src="assets/loading_2024_angels_vs_demons.jpg" alt="Brawl Stars Loading 2024 Angels vs Demons"></div>
+                <div class="swiper-slide"><img src="assets/loading_2024_meeple.png" alt="Brawl Stars Loading 2024 Clancy"></div>
+                <div class="swiper-slide"><img src="assets/loading_2024_clancy.png" alt="Brawl Stars Loading 2024 Meeple"></div>
+            </div>
+
+        <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+    </section>
+
+    <!-- agrupador dos dois carrosséis -->
+<div class="carrossel__group">
+
+  <!-- === Carrossel A === -->
+  <section class="carrossel__fullscreen">
+    <h2 class="carrossel__title">Discover A</h2>
+    <div class="carrossel__container">
+      <div class="swiper swiper-a">
+        <div class="swiper-pagination swiper-pagination-a"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/loading_2024_clancy.png" alt=""></div>
+          <div class="swiper-slide"><img src="assets/loading_2024_angels_vs_demons.jpg" alt=""></div>
+          <!-- … -->
+        </div>
+        <div class="swiper-button-prev swiper-button-prev-a"></div>
+        <div class="swiper-button-next swiper-button-next-a"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- === Carrossel B === -->
+  <section class="carrossel__fullscreen">
+    <h2 class="carrossel__title">Discover B</h2>
+    <div class="carrossel__container">
+      <div class="swiper swiper-b">
+        <div class="swiper-pagination swiper-pagination-b"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/loading_2020_psg.png" alt=""></div>
+          <div class="swiper-slide"><img src="assets/loading_2024_meeple.png" alt=""></div>
+          <!-- … -->
+        </div>
+        <div class="swiper-button-prev swiper-button-prev-b"></div>
+        <div class="swiper-button-next swiper-button-next-b"></div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+    <section class="content">
+        <h2 class="content__title">Most Watched</h2>
+    <div class="card__list">
+        <div class="content__container">
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                                <h3 class="card__title">Novo Brawler Kaze!</h3>
+                                <p class="card__text">O novo brawler que traz a força do vento para a arena!</p>
+                    </div>
+                </div>
+                <div class="card__button">
+                    <ul class ="buttons">
+                            <li class="buttons__item"><img src="assets/favoritos.png" width="45" height="45"alt="Favorite This Video"></li>
+                            <li class="buttons__item"><img src="assets/watch.png" width="50" height="45" alt="Add to Watch Later"></li>
+                    </ul>
+                </div>
+            </div>
+            <img src="assets/loading_2025_Kaze_Final.png" width="215" height="170" alt="Most Watched 1" class="content__image">
+        </div>
+
+        <div class="content__container">
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                                <h3 class="card__title">Novo Brawler Kaze!</h3>
+                                <p class="card__text">O novo brawler que traz a força do vento para a arena!</p>
+                    </div>
+                </div>
+                <div class="card__button">
+                    <ul class ="buttons">
+                            <li class="buttons__item"><img src="assets/favoritos.png" width="45" height="45"alt="Favorite This Video"></li>
+                            <li class="buttons__item"><img src="assets/watch.png" width="50" height="45" alt="Add to Watch Later"></li>
+                    </ul>
+                </div>
+            </div>
+            <img src="assets/loading_2025_Kaze_Final.png" width="215" height="170" alt="Most Watched 1" class="content__image">
+        </div>
+
+        <div class="content__container">
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                                <h3 class="card__title">Novo Brawler Kaze!</h3>
+                                <p class="card__text">O novo brawler que traz a força do vento para a arena!</p>
+                    </div>
+                </div>
+                <div class="card__button">
+                    <ul class ="buttons">
+                            <li class="buttons__item"><img src="assets/favoritos.png" width="45" height="45"alt="Favorite This Video"></li>
+                            <li class="buttons__item"><img src="assets/watch.png" width="50" height="45" alt="Add to Watch Later"></li>
+                    </ul>
+                </div>
+            </div>
+            <img src="assets/loading_2025_Kaze_Final.png" width="215" height="170" alt="Most Watched 1" class="content__image">
+        </div>
+
+        <div class="content__container">
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                                <h3 class="card__title">Novo Brawler Kaze!</h3>
+                                <p class="card__text">O novo brawler que traz a força do vento para a arena!</p>
+                    </div>
+                </div>
+                <div class="card__button">
+                    <ul class ="buttons">
+                            <li class="buttons__item"><img src="assets/favoritos.png" width="45" height="45"alt="Favorite This Video"></li>
+                            <li class="buttons__item"><img src="assets/watch.png" width="50" height="45" alt="Add to Watch Later"></li>
+                    </ul>
+                </div>
+            </div>
+            <img src="assets/loading_2025_Kaze_Final.png" width="215" height="170" alt="Most Watched 1" class="content__image">
+        </div>
+
+        <div class="content__container">
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                                <h3 class="card__title">Novo Brawler Kaze!</h3>
+                                <p class="card__text">O novo brawler que traz a força do vento para a arena!</p>
+                    </div>
+                </div>
+                <div class="card__button">
+                    <ul class ="buttons">
+                            <li class="buttons__item"><img src="assets/favoritos.png" width="45" height="45"alt="Favorite This Video"></li>
+                            <li class="buttons__item"><img src="assets/watch.png" width="50" height="45" alt="Add to Watch Later"></li>
+                    </ul>
+                </div>
+            </div>
+            <img src="assets/loading_2025_Kaze_Final.png" width="215" height="170" alt="Most Watched 1" class="content__image">
+        </div>
+
+        <div class="content__container">
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                                <h3 class="card__title">Novo Brawler Kaze!</h3>
+                                <p class="card__text">O novo brawler que traz a força do vento para a arena!</p>
+                    </div>
+                </div>
+                <div class="card__button">
+                    <ul class ="buttons">
+                            <li class="buttons__item"><img src="assets/favoritos.png" width="45" height="45"alt="Favorite This Video"></li>
+                            <li class="buttons__item"><img src="assets/watch.png" width="50" height="45" alt="Add to Watch Later"></li>
+                    </ul>
+                </div>
+            </div>
+            <img src="assets/loading_2025_Kaze_Final.png" width="215" height="170" alt="Most Watched 1" class="content__image">
+        </div>
+
+    </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="menu__wrapper">
+            <input type="checkbox" id="discover" name="menu" class="footer__checkbox">
+             <label for="discover" class="footer__label container__image__1"></label>
+            <ul class="menu__list">
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 1</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 2</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 3</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 4</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 5</a>
+                </li>
+            </ul>
+            </div>
+
+            <div class="menu__wrapper">
+            <input type="checkbox" id="browse" name="menu" class="footer__checkbox">
+            <label for="browse" class="footer__label container__image__2"></label>
+            <ul class="menu__list">
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 1</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 2</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 3</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 4</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 5</a>
+                </li>
+            </ul>
+            </div>
+
+            <div class="menu__wrapper">
+            <input type="checkbox" id="leadboards" name="menu" class="footer__checkbox">
+            <label for="leadboards" class="footer__label container__image__3"></label>
+            <ul class="menu__list">
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">South America</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">North America </a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Europe</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Asia</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Oceania</a>
+            </ul>
+            </div>
+
+            <div class="menu__wrapper">
+            <input type="checkbox" id="more" name="menu" class="footer__checkbox">
+            <label for="more" class="footer__label container__image__4"></label>
+            <ul class="menu__list">
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 1</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 2</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 3</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 4</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="menu__list__link">Item 5</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="footer__text">
+            <p class="footer__text__paragraph">
+                Brawl TV é um projeto fictício criado para fins educacionais. 
+                Todos os direitos reservados aos respectivos proprietários de conteúdo. </p>
+            <p class="footer__text__paragraph">
+                Desenvolvido por Vinicius Monteiro - 2025 </p>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const swiper = new Swiper('.swiper', {
+      loop: true,                // volta pro primeiro slide no fim
+      autoplay: {
+        delay: 2000,             // 2 segundos
+        disableOnInteraction: false // não para se clicar manualmente
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true          // dá pra clicar nos bullets
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      }
+    });
+  });
+</script>
+
+<script>
+  const boxes = document.querySelectorAll('.footer__checkbox');
+
+  boxes.forEach(chk => {
+    chk.addEventListener('change', () => {
+      if (chk.checked) {
+        // fecha todos os outros
+        boxes.forEach(other => {
+          if (other !== chk) other.checked = false;
+        });
+      }
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Carrossel A
+    const swiperA = new Swiper('.swiper-a', {
+      loop: true,
+      autoplay: {
+        delay: 8000,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: '.swiper-pagination-a',
+        clickable: true
+      },
+      navigation: {
+        nextEl: '.swiper-button-next-a',
+        prevEl: '.swiper-button-prev-a'
+      },
+    });
+
+    // Carrossel B
+    const swiperB = new Swiper('.swiper-b', {
+      loop: true,
+      autoplay: {
+        delay: 8000,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: '.swiper-pagination-b',
+        clickable: true
+      },
+      navigation: {
+        nextEl: '.swiper-button-next-b',
+        prevEl: '.swiper-button-prev-b'
+      },
+    });
+  });
+</script>
+
+
+</body>
+</html>
